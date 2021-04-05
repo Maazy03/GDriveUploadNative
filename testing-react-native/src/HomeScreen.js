@@ -109,14 +109,14 @@ then(res => {
             </View>
           </View>
           <ScrollView>
-            <TouchableOpacity
+            {/* <TouchableOpacity
               style={styles.buttonStyle}
               onPress={() =>
                 navigation.navigate('googleKey')
               }>
               <Text>Select and Upload File on Google Drive</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
+            </TouchableOpacity> */}
+            {/* <TouchableOpacity
               style={styles.buttonStyle}
               onPress={() =>
                 navigation.navigate(
@@ -125,8 +125,8 @@ then(res => {
                 )
               }>
               <Text>Listing of Files from Google Drive</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
+            </TouchableOpacity> */}
+            {/* <TouchableOpacity
               style={styles.buttonStyle}
               onPress={() =>
                 navigation.navigate(
@@ -137,16 +137,16 @@ then(res => {
               <Text style={{textAlign: 'center'}}>
                 Get Specific File Content from Google Drive
               </Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <TouchableOpacity
               style={styles.buttonStyle}
               onPress={() =>
                 navigation.navigate('googleKey')
               }>
               <Text style={{textAlign: 'center'}}>
-ggggggggggggggg              </Text>
+                Save Secret Key              </Text>
             </TouchableOpacity>
-            <TouchableOpacity
+            {/* <TouchableOpacity
               style={styles.buttonStyle}
               onPress={() =>
                 navigation.navigate('GDDeleteFileScreen')
@@ -159,16 +159,16 @@ ggggggggggggggg              </Text>
                 navigation.navigate('GDDownloadFileScreen')
               }>
               <Text>Download File from Google Drive</Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
 
-            <TouchableOpacity
+            {/* <TouchableOpacity
               style={styles.buttonStyle}
               onPress={() =>
                 // navigation.navigate('GDDownloadFileScreen')
                 createFile()
               }>
               <Text>CREATE FILER HERE</Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
 
 
 

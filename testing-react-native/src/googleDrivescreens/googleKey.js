@@ -45,7 +45,7 @@ const GdriveBackupScreen = props => {
 
       if (initialized) {
         const folderResponse = await GDrive.files.safeCreateFolder({
-          name: 'Ovo',
+          name: 'Ovo1',
           parents: ['root'],
         });
 
